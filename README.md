@@ -20,7 +20,7 @@ keypad keys and normal keys
 or else you have to use a build in constant (KeyEvent.VK_UP).
 * they do not distinguish between 'A' and 'a' since its the same key being pressed.
 
-### In these examples, I show how to use Key characters in ______ and KeyCodes in ______
+### In these examples, I show how to use Key characters in AnimationAndKeys and KeyCodes in ______
 
 
 ## Differing requirements for games
@@ -32,3 +32,11 @@ All of the following are illustrated in the code.
 3. setting an action so that it can only happen once per keypress. For example, holding down the 's' key will only shring the player once, not infinitely.
 
 :boom: With different parts of the program doing different things with status of objects, you have to really be aware of where and when repainting needs to be done.
+
+-------------------
+
+##Note
+According to Java documentation the keyTyped() event doesn't have key code information, 
+and keyPressed() and keyReleased() events don't have key character information.
+
+HOWEVER, keyPressed and keyReleased do give you characters from e.getKeyChar()
