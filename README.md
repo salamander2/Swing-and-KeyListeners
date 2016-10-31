@@ -19,7 +19,7 @@ be consistent with this throughout your program.
 keypad keys and normal keys.
 * It's a bit more complicated to use: you either have to know that the up arrow is 38
 or else you have to use a built-in constant (KeyEvent.VK_UP).
-* they do not distinguish between 'A' and 'a' since its the same key being pressed.
+* they do not distinguish between 'A' and 'a' since it's the same key being pressed.
 
 ### In these examples, I show how to use Key characters in AnimationAndKeys.java and KeyCodes in AnimationAndKeys2.java
 
@@ -30,7 +30,7 @@ All of the following are illustrated in the code.
 1. normal response to a key press:  if you press 'a', move left 5 pixels
 2. slow response to a key press. Pressing 'q' or 'e' will go through a list of items one at a time.
 2. responding to a keypress without the built in key-delay / key repeat delay, ie. having smooth motion
-3. setting an action so that it can only happen once per keypress. For example, holding down the 's' key will only shring the player once, not infinitely.
+3. setting an action so that it can only happen once per keypress. For example, holding down the 's' key will only shrink the player once, not infinitely.
 
 :boom: With different parts of the program doing different things with status of objects, you have to really be aware of where and when repainting needs to be done.
 
