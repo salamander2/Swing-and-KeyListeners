@@ -1,5 +1,6 @@
 # Swing-and-KeyListeners
-Various useful ways of doing keylisteners in Swing.
+
+*Various useful ways of doing keylisteners in Swing.*
 
 ------------
 
@@ -9,13 +10,13 @@ be consistent with this throughout your program.
 
 **Key characters**
 * allow you to say: if (key == 'a') which is easy to understand.
-* They also distinguish between 'A' and 'a'
-* But they cannot handle non-alphanumeric keys like CTRL or FN1
+* They also distinguish between 'A' and 'a'.
+* But they cannot handle non-alphanumeric keys like CTRL or FN1 or arrow keys.
 
 **Key Codes**
-* return a different code for each key that you press
+* return a different code for each key that you press.
 * You can now use every key on the keyboard and even distinguish between
-keypad keys and normal keys
+keypad keys and normal keys.
 * It's a bit more complicated to use: you either have to know that the up arrow is 38
 or else you have to use a build in constant (KeyEvent.VK_UP).
 * they do not distinguish between 'A' and 'a' since its the same key being pressed.
