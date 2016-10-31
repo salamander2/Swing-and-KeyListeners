@@ -18,7 +18,7 @@ be consistent with this throughout your program.
 * You can now use every key on the keyboard and even distinguish between
 keypad keys and normal keys.
 * It's a bit more complicated to use: you either have to know that the up arrow is 38
-or else you have to use a build in constant (KeyEvent.VK_UP).
+or else you have to use a built-in constant (KeyEvent.VK_UP).
 * they do not distinguish between 'A' and 'a' since its the same key being pressed.
 
 ### In these examples, I show how to use Key characters in AnimationAndKeys.java and KeyCodes in AnimationAndKeys2.java
@@ -28,7 +28,7 @@ or else you have to use a build in constant (KeyEvent.VK_UP).
 All of the following are illustrated in the code.
 
 1. normal response to a key press:  if you press 'a', move left 5 pixels
-2. slow repsonse to a key press. Pressing 'q' or 'e' will go through a list of items one at a time.
+2. slow response to a key press. Pressing 'q' or 'e' will go through a list of items one at a time.
 2. responding to a keypress without the built in key-delay / key repeat delay, ie. having smooth motion
 3. setting an action so that it can only happen once per keypress. For example, holding down the 's' key will only shring the player once, not infinitely.
 
