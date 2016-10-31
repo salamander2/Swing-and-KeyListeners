@@ -21,7 +21,7 @@ keypad keys and normal keys.
 or else you have to use a build in constant (KeyEvent.VK_UP).
 * they do not distinguish between 'A' and 'a' since its the same key being pressed.
 
-### In these examples, I show how to use Key characters in AnimationAndKeys and KeyCodes in ______
+### In these examples, I show how to use Key characters in AnimationAndKeys.java and KeyCodes in AnimationAndKeys2.java
 
 
 ## Differing requirements for games
