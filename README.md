@@ -41,3 +41,5 @@ According to Java documentation the keyTyped() event doesn't have key code infor
 and keyPressed() and keyReleased() events don't have key character information.
 
 HOWEVER, keyPressed and keyReleased do give you characters from e.getKeyChar()
+
+NOTE:  KeyEvent.VK_A can be replaced with 'A', etc.
